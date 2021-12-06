@@ -1,0 +1,24 @@
+﻿body {
+    background-color: #66717E;
+    font-family: roboto condensed;
+    text-align: center;
+    }
+h1 {
+  font-family: Roboto condensed
+  font-weight: 900;
+  }
+img {
+  max-width: 100%;
+  height: auto;
+  }
+span {
+  font-family: "Brush Script MT";
+  font-size:60px;
+}
+.image {
+  margin:auto;
+  }
+  @media only screen and (max-width: 600px) {
+            body {
+              background-color: lightblue;
+            }
