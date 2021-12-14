@@ -1,5 +1,6 @@
 ﻿body {
-    background-color: #66717E;
+    background-image: url("../images/nuuk2.jpg");
+    background-size: auto;
     font-family: roboto condensed;
     text-align: center;
     margin: 0;
@@ -13,7 +14,7 @@ nav {
     }
 
 h1 {
-    font-family: 'Pacifico';
+    font-family: Roboto condensed;
     font-weight: 900;
     }
 
@@ -23,11 +24,9 @@ img {
     object-fit: scale-down;
     }
 
-.image {
-    margin:auto;
-    }
+@media only screen and (max-width: 600px) {
 
-  @media only screen and (max-width: 600px) {
 body {
-      background-color: lightblue;
+      background-image: url("../images/nukabackground.jpg") width:100%;
       }
+}
