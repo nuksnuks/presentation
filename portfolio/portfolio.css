@@ -2,12 +2,23 @@
     font-family: roboto condensed;
     background-color: #66717E;
     text-align: center;
-  }
+    margin: 0;
+    }
+
 nav {
     font-family: roboto condensed;
-    background-color: rgba(255, 255, 255, 0.2);
+    font-size: normal;
     padding: 15px;
-    margin: 0px;
-    border: 0px;
-    text-align: center;
+    text-align: right;
     }
+
+video{
+      width: 100%;
+      height: auto;
+      max-height: 1080px;
+      }
+
+@media only screen and (max-width: 600px) {
+body {
+      background-color: white;
+      }

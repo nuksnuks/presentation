@@ -1,3 +1,37 @@
-﻿body{
-    background-color: #66717E;
+﻿body {
+      background-color: #66717E;
+      margin:0;
+      text-align: center;
+      font-family: roboto condensed;
+      font-size: normal;
+      border-style:dashed;
+      }
+
+nav {
+      font-family: roboto condensed;
+      font-size: normal;
+      padding: 15px;
+      text-align: right;
     }
+
+img {
+     max-width: 50%;
+     margin: auto;
+     }
+
+li  {
+    text-align: left;
+    list-style-type:none;
+    }
+.info {
+       margin-left: 50%;
+       transform:translateX(-50%);
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+body {
+      background-color: lightblue;
+      }

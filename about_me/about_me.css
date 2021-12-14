@@ -2,23 +2,32 @@
     background-color: #66717E;
     font-family: roboto condensed;
     text-align: center;
+    margin: 0;
     }
+
+nav {
+    font-family: roboto condensed;
+    font-size: normal;
+    padding: 15px;
+    text-align: right;
+    }
+
 h1 {
-  font-family: Roboto condensed
-  font-weight: 900;
-  }
+    font-family: 'Pacifico';
+    font-weight: 900;
+    }
+
 img {
-  max-width: 100%;
-  height: auto;
-  }
-span {
-  font-family: "Brush Script MT";
-  font-size:60px;
-}
+    max-width: 100%;
+    height: auto;
+    object-fit: scale-down;
+    }
+
 .image {
-  margin:auto;
-  }
+    margin:auto;
+    }
+
   @media only screen and (max-width: 600px) {
-            body {
-              background-color: lightblue;
-            }
+body {
+      background-color: lightblue;
+      }
