@@ -24,6 +24,9 @@ a {
        margin-top: 0px;
        cursor: pointer;
 }
+ li {
+   list-style-type: none;
+ }
 
 @media only screen and (max-width: 600px) {
 
@@ -32,5 +35,5 @@ body {
 }
 .flex-container  {
        text-align: center;
-       margin-top: 60%;
+       margin-top: 20%;
 }

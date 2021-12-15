@@ -8,7 +8,8 @@
     text-align: center;
     }
 section {
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     }
 
 div {
@@ -16,17 +17,18 @@ div {
 }
 
 nav {
-    font-family: courier;
-    font-size: normal;
     padding: 15px;
     text-align: right;
     }
+
+p {
+  text-align: left;
+}
 
 .flex-container1 {
     display: flex;
     flex-direction: row;
     background-color: #FFFEF7;
-
     }
 
 .flex-text1 {
@@ -34,7 +36,7 @@ nav {
     }
 
 .case1 {
-    text-align: auto;
+    text-align: left;
     }
 
 .flex-container2 {
@@ -100,14 +102,14 @@ ul {
 }
 .flex-container6 {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     background-color: #FFFEF7;
 }
 .flex-text6 {
   margin: 15px;
 }
 .case6 {
-  text-align: right;
+  text-align: left;
 }
 
 @media only screen and (max-width: 600px) {

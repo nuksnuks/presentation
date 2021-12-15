@@ -13,8 +13,13 @@ nav {
     padding: 15px;
     text-align: right;
     }
+
 section {
     margin: 10%;
+    }
+
+p   {
+    text-align: left;
     }
 
 .flex-container1 {
@@ -38,7 +43,7 @@ section {
       }
 
 .case2 {
-      text-align: right;
+      text-align: left;
     }
 
 .flex-container3 {
@@ -53,9 +58,49 @@ section {
     text-align: left;
     }
 
+.flex-container4 {
+    display: flex;
+    flex-direction: row-reverse;
+    }
+.flex-text4 {
+    margin: 15px;
+    }
+
+.case4 {
+    text-align: left;
+    }
+
 @media only screen and (max-width: 600px) {
 
 body {
       background-image: url("../images/nukabackground.jpg") width:100%;
       }
+      img, video {
+          max-width: 95%;
+      }
+
+      .flex-container1 {
+          display: flex;
+          flex-direction: column;
+          }
+      .flex-container2 {
+          display: flex;
+          flex-direction: column;
+          }
+      .flex-container3 {
+          display: flex;
+          flex-direction: column;
+          }
+      .flex-container4 {
+          display: flex;
+          flex-direction: column;
+          }
+      .flex-container5 {
+          display: flex;
+          flex-direction: column;
+          }
+      .flex-container6 {
+          display: flex;
+          flex-direction: column;
+          }
 }
