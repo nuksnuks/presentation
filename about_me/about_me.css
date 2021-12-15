@@ -1,27 +1,56 @@
 ﻿body {
     background-image: url("../images/nuuk2.jpg");
     background-size: auto;
-    font-family: roboto condensed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: courier;
     text-align: center;
-    margin: 0;
+    margin: ;
     }
 
 nav {
-    font-family: roboto condensed;
     font-size: normal;
     padding: 15px;
     text-align: right;
     }
-
-h1 {
-    font-family: Roboto condensed;
-    font-weight: 900;
+section {
+    margin: 10%;
     }
 
-img {
-    max-width: 100%;
-    height: auto;
-    object-fit: scale-down;
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    }
+.flex-text1 {
+    margin: 15px;
+    }
+
+.case1 {
+    text-align: left;
+  }
+
+.flex-container2 {
+      display: flex;
+      flex-direction: row-reverse;
+      }
+.flex-text2 {
+      margin: 15px;
+      }
+
+.case2 {
+      text-align: right;
+    }
+
+.flex-container3 {
+    display: flex;
+    flex-direction: row;
+    }
+.flex-text3 {
+    margin: 15px;
+    }
+
+.case3 {
+    text-align: left;
     }
 
 @media only screen and (max-width: 600px) {

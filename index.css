@@ -1,24 +1,36 @@
 body {
-       font-family: roboto condensed;
-       background-color: black;
-       background-image: url("images/artist_cover.png");
+       font-family: courier;
+       background-image: url("images/nuuk2.jpg");
+       background-repeat: no-repeat;
+       background-attachment: fixed;
        background-size: cover;
        margin: auto;
        box-sizing: border-box;
        }
 
-a {
-  flex-direction: column;
-  margin-top: 15px;
-  text-align: center;
+.intro {
+      margin-top: 15%;
+      text-align: center;
 
 }
-.flex-menu {
 
+a {
+  padding: 15px;
+  margin: 0px;
+}
+
+.flex-container  {
+       text-align: center;
+       margin-top: 0px;
+       cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
 
 body {
-  background-image: url("images/nukabackground-2.jpg")
+  background-image: url("images/nuuk2.jpg")
+}
+.flex-container  {
+       text-align: center;
+       margin-top: 60%;
 }
