@@ -47,6 +47,9 @@ p {
 .case1 {
     text-align: left;
     }
+.logo {
+    max-width: 300; 
+    }
 
 
 .flex-container2 {

@@ -20,7 +20,7 @@ a{
 
 .flex-container{
       text-align: center;
-      margin-top: 0px;
+      margin-top: 0;
       cursor: pointer;
       }
  li{
