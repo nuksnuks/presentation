@@ -121,6 +121,9 @@ footer {
 
 body {
     background-image: url("../images/nukabackground.jpg") width:100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     }
 img, video {
     max-width: 95%;
