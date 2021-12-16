@@ -1,12 +1,17 @@
-﻿body{
-    background-image: url("../images/landscape-1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: courier;
-    background-color: #66717E;
-    text-align: center;
-    }
+body {
+       font-family: courier;
+       background-image: url("../images/nuuk2.jpg");
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+       margin: auto;
+       box-sizing: border-box;
+       }
+
+h1 {
+  text-align: center;
+}
+
 section {
     margin-left: 10%;
     margin-right: 10%;
@@ -120,8 +125,19 @@ ul {
   text-align: left;
 }
 
+.flex-container7 {
+  height: 600px;
+  background: rgba(255, 255, 255, 0.0);
+  }
+
+iframe {
+  border: none;
+  -webkit-transform:scale(1);
+  -moz-transform-scale(0.5);
+}
+
 footer {
-  position: fixed; /* Child should have absolute position */
+  position: fixed;
   bottom: 0;
   left: 0;
 }
