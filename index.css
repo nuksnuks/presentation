@@ -1,5 +1,5 @@
 body {
-       font-family: courier;
+       font-family: Courier;
        background-image: url("images/nuuk2.jpg");
        background-repeat: no-repeat;
        background-attachment: fixed;
@@ -13,34 +13,30 @@ body {
       text-align: center;
       }
 
-a {
-  padding: 15px;
-  margin: 0px;
-}
+a     {
+      padding: 15px;
+      margin: 0px;
+      }
 
 .flex-container  {
-       text-align: center;
-       margin-top: 0px;
-       cursor: pointer;
-}
+      text-align: center;
+      margin-top: 0px;
+      cursor: pointer;
+      }
  li {
-   list-style-type: none;
- }
+      list-style-type: none;
+      }
 
 footer {
-  position: absolute; /* Child should have absolute position */
-  bottom: 0;
-  left: 0;
-}
-
-.copy
-  {
-  color: white;
-  }
+      position: absolute; /* Child should have absolute position */
+      bottom: 0;
+      left: 0;
+      }
 
 @media only screen and (max-width: 600px) {
 
 .flex-container  {
        text-align: center;
        margin-top: 20%;
+      }
 }
