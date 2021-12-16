@@ -40,9 +40,6 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
-body {
-  background-image: url("images/nuuk1.jpg")
-}
 .flex-container  {
        text-align: center;
        margin-top: 20%;
