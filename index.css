@@ -1,41 +1,41 @@
 body{
-       font-family: Courier, arial;
-       background-image: url("images/nuuk2.jpg");
-       background-repeat: no-repeat;
-       background-attachment: fixed;
-       background-size: cover;
-       margin: auto;
-       box-sizing: border-box;
-       }
+font-family: Courier, arial;
+background-image: url("images/nuuk2.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+margin: auto;
+box-sizing: border-box;
+}
 
 .intro{
-      margin-top: 15%;
-      text-align: center;
-      }
+margin-top: 15%;
+text-align: center;
+}
 
 a{
-      padding: 15px;
-      margin: 0px;
-      }
+padding: 15px;
+margin: 0px;
+}
 
 .flex-container{
-      text-align: center;
-      margin-top: 0;
-      cursor: pointer;
-      }
+text-align: center;
+margin-top: 0;
+cursor: pointer;
+}
  li{
-      list-style-type: none;
-      }
+list-style-type: none;
+}
 
 footer{
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      }
+position: absolute;
+bottom: 0;
+left: 0;
+}
 
 @media only screen and (max-width: 600px) {
-      }
+}
 .flex-container{
-       text-align: center;
-       margin-top: 20%;
-      }
+text-align: center;
+margin-top: 20%;
+}
