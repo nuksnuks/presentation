@@ -26,6 +26,7 @@ nav {
     text-align: right;
     position: fixed;
     right: 15px;
+    z-index:-1;
     }
 
 p {
@@ -46,6 +47,7 @@ p {
 .case1 {
     text-align: left;
     }
+
 
 .flex-container2 {
     display: flex;
@@ -140,9 +142,14 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
+  z-index:-1;
 }
 
 @media only screen and (max-width: 600px) {
+
+  h1 {
+    text-align: center;
+  }
 
   img, video {
       max-width: 95%;

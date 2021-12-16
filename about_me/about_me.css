@@ -1,12 +1,12 @@
-﻿body {
-    background-image: url("../images/nuuk2.jpg");
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: Courier;
-    text-align: center;
-    margin: ;
-    }
+body {
+       font-family: Courier New;
+       background-image: url("../images/nuuk2.jpg");
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+       margin: auto;
+       box-sizing: border-box;
+       }
 
 nav {
     font-size: normal;
@@ -111,6 +111,11 @@ u {
     text-align: left;
     }
 
+.flex-container8 {
+    height: 600px;
+    background: rgba(255, 255, 255, 0.0);
+    }
+
 footer {
     position: fixed;
     bottom: 0;
@@ -119,12 +124,6 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
-body {
-    background-image: url("../images/nuuk1.jpg") width:100%;
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    }
 img, video {
     max-width: 95%;
     }
