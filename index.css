@@ -28,6 +28,17 @@ a {
    list-style-type: none;
  }
 
+footer {
+  position: absolute; /* Child should have absolute position */
+  bottom: 0;
+  left: 0;
+}
+
+.copy
+  {
+  color: white;
+  }
+
 @media only screen and (max-width: 600px) {
 
 body {

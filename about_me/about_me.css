@@ -12,6 +12,8 @@ nav {
     font-size: normal;
     padding: 15px;
     text-align: right;
+    position: fixed;
+    right: 15px;
     }
 
 section {
@@ -21,7 +23,9 @@ section {
 p   {
     text-align: left;
     }
-
+u {
+    text-decoration: underline;
+    }
 .flex-container1 {
     display: flex;
     flex-direction: row;
@@ -70,37 +74,92 @@ p   {
     text-align: left;
     }
 
+.flex-container5 {
+    display: flex;
+    flex-direction: row;
+    }
+.flex-text5 {
+    margin: 15px;
+    }
+
+.case5 {
+    text-align: left;
+    }
+
+.flex-container6 {
+    display: flex;
+    flex-direction: row-reverse;
+    }
+.flex-text6 {
+    margin: 15px;
+    }
+
+.case6 {
+    text-align: left;
+    }
+
+.flex-container7 {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    }
+.flex-text7 {
+    margin: 15px;
+    }
+
+.case7 {
+    text-align: left;
+    }
+
+footer {
+    position: fixed; 
+    bottom: 0;
+    right: 0;
+    }
+
 @media only screen and (max-width: 600px) {
 
 body {
-      background-image: url("../images/nukabackground.jpg") width:100%;
-      }
-      img, video {
-          max-width: 95%;
-      }
+    background-image: url("../images/nukabackground.jpg") width:100%;
+    }
+img, video {
+    max-width: 95%;
+    }
 
-      .flex-container1 {
-          display: flex;
-          flex-direction: column;
-          }
-      .flex-container2 {
-          display: flex;
-          flex-direction: column;
-          }
-      .flex-container3 {
-          display: flex;
-          flex-direction: column;
-          }
-      .flex-container4 {
-          display: flex;
-          flex-direction: column;
-          }
-      .flex-container5 {
-          display: flex;
-          flex-direction: column;
-          }
-      .flex-container6 {
-          display: flex;
-          flex-direction: column;
-          }
+nav {
+    padding: 15px;
+    text-align: right;
+    position: static;
+    right: 15px;
+    }
+
+.flex-container1 {
+    display: flex;
+    flex-direction: column;
+    }
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    }
+.flex-container3 {
+    display: flex;
+    flex-direction: column;
+    }
+.flex-container4 {
+    display: flex;
+    flex-direction: column;
+    }
+.flex-container5 {
+    display: flex;
+    flex-direction: column;
+    }
+.flex-container6 {
+    display: flex;
+    flex-direction: column;
+    }
+.flex-container7 {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    }
 }
