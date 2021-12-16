@@ -26,7 +26,6 @@ nav {
     text-align: right;
     position: fixed;
     right: 15px;
-    z-index:-1;
     }
 
 p {
