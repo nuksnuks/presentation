@@ -4,37 +4,96 @@ background-image: url("images/nuuk2.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
-margin: auto;
-box-sizing: border-box;
 }
 
-.intro{
-margin-top: 15%;
+button{
+animation-name: menu;
+animation-duration: 1s;
+}
+#front{
+display:block;
+margin-top: 10%;
+animation-name: front;
+animation-duration: 1s;
+}
+#introp, #introh, #introul, #flex-menu, nav{
+margin-top: 30px;
 text-align: center;
+list-style: none;
+animation-name: content;
+animation-duration: 1s;
+}
+#cases{
+margin-left: auto;
+margin-right: auto;
+display:none;
+animation-name: cases;
+animation-duration: 1s;
+}
+#aboutme{
+display:none;
+animation-name: aboutme;
+animation-duration: 1s;
+}
+@keyframes menu{
+0% {opacity:0}
+100% {opacity:1}
+}
+@keyframes front{
+0% {opacity:0}
+100% {opacity:1}
+}
+@keyframes cases{
+0% {opacity:0}
+100% {opacity:1}
+}
+@keyframes aboutme{
+0% {opacity:0}
+100% {opacity:1}
+}
+.flex-container1{
+width:900px;
+margin-top: 15px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-direction: row;
+background-color: rgba(255, 255, 255, 0.5);
+}
+.flex-container2{
+width:900px;
+margin-top: 15px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-direction: row-reverse;
+background-color: rgba(255, 255, 255, 0.5);
 }
 
-a{
-padding: 15px;
-margin: 0px;
+img{
+max-width: 300px;
+}
+.flex-text{
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+}
+::-webkit-scrollbar {
+display: none;
 }
 
-.flex-container{
-text-align: center;
-margin-top: 0;
-cursor: pointer;
+@media only screen and (max-width: 800px) {
+.flex-container1, .flex-container2{
+display:flex;
+flex-direction: column;
+margin-left: auto;
+margin-right: auto;
 }
- li{
-list-style-type: none;
+.flex-image{
+margin-left: auto;
+margin-right: auto;
 }
-
-footer{
-position: absolute;
-bottom: 0;
-left: 0;
-}
-
-@media only screen and (max-width: 600px) {
-}
-.flex-container{
-text-align: center;
+.flex-text1, .flex-text2{
+margin-left: auto;
+margin-right: auto;
 }
