@@ -129,18 +129,24 @@ nav {
   }
 
 @media only screen and (max-width: 800px) {
-  .flex-container1, .flex-container2 {
-    display:flex;
-    text-align: center;
-    flex-direction: column;
+  .flex-container1 {
+     display:flex;
+     flex-direction: column;
+     width: auto;
+     }
+  .flex-text {
     margin-left: auto;
     margin-right: auto;
-    }
+  }
   .flex-image {
     margin-left: auto;
     margin-right: auto;
   }
-  .flex-text1, .flex-text2 {
+ .flex-container2 {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-  }
+    width: auto;
+    }
