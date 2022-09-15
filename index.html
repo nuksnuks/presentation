@@ -1,30 +1,27 @@
 ﻿<!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
-  <script src="main.js"></script>
+  <script src="../presentation/js/main.js" defer></script>
   <title>Express yourself</title>
 </head>
 <body>
-
 <div id="front">
   <div id="intro">
-    <p id="introp">this is</p>
-    <img src="images/profile.jpg" alt="profile" id="introimg">
-    <h1 id="introh">nuksnuks</h1>
+    <img src="images/profile_nuka.jpg" alt="profile" id="introimg">
+    <h1 id="introh">I am <br> David Wogelius</h1>
     <ul id="introul">
-      <li>phone: +45 52 22 41 02</li>
-      <li>email: davidwogelius@gmail.com</li>
+      <li>Phone: <a href="tel:+45 52 22 41 02" id="phonenumber">+45 52 22 41 02</a></li>
+      <li>Email: <a href="mailto:davidwogelius@gmail.com"id="email">davidwogelius@gmail.com</a></li>
     </ul>
   </div>
 </div>
 <nav id="flex-menu">
-  <button onclick="front()">Front</button>
-  <button onclick="cases()">Cases</button>
-  <button onclick="aboutme()">About Me</button>
+  <button id="frontb">Front</button>
+  <button id="casesb">Cases</button>
+  <button id="aboutmeb">About Me</button>
 </nav>
 <div id="cases">
   <div class="flex-container1">
@@ -244,10 +241,5 @@
     </div>
   </div>
 </div>
-
-
-
-<footer>
-</footer>
 </body>
 </html>

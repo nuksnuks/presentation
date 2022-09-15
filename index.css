@@ -1,105 +1,146 @@
-body{
-font-family: Courier, arial;
-background-image: url("images/nuuk2.jpg");
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
-}
+body {
+  font-family: Courier, arial;
+  background-image: url("images/nuuk2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+button {
+  animation-name: menu;
+  animation-duration: 1s;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  opacity: 0.6;
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
 
-button{
-animation-name: menu;
-animation-duration: 1s;
-}
-#front{
-display:block;
-margin-top: 10%;
-animation-name: front;
-animation-duration: 1s;
-}
+  }
+button:hover {
+  animation-name: menu;
+  transition: 0.3s;
+  background-color: cornflowerblue;
+  opacity:1;
+  }
 
-#introimg{
+#front {
   display:block;
+  margin-top: 10%;
+  animation-name: front;
+  animation-duration: 1s;
+  }
+#introimg {
+  display:block;
+  max-width: 340px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%
+  }
+#introp, #introh, #flex-menu {
+  margin-top: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  animation-name: content;
+  animation-duration: 1s;
+  }
+#introul {
+  background-color: rgba(255,255,255,0.6);
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px 10px 30px;
+  border-radius:5px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
 }
-#introp, #introh, #introul, #flex-menu, nav{
-margin-top: 30px;
-text-align: center;
-list-style: none;
-animation-name: content;
-animation-duration: 1s;
+#email, #phonenumber{
+  text-decoration: none;
+  color: black;
 }
-#cases{
-margin-left: auto;
-margin-right: auto;
-display:none;
-animation-name: cases;
-animation-duration: 1s;
+#cases {
+  margin-left: auto;
+  margin-right: auto;
+  display:none;
+  animation-name: cases;
+  animation-duration: 1s;
+  }
+#aboutme {
+  display:none;
+  animation-name: aboutme;
+  animation-duration: 1s;
+  }
+@keyframes menu {
+  0% {opacity:0}
+  100% {opacity:0.6}
+  }
+@keyframes front {
+  0% {opacity:0}
+  100% {opacity:1}
+  }
+@keyframes cases {
+  0% {opacity:0}
+  100% {opacity:1}
+  }
+@keyframes aboutme {
+  0% {opacity:0}
+  100% {opacity:1}
+  }
+.flex-container1 {
+  width:900px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.5);
+  }
+.flex-container1 > img {
+  max-width: 300px;
+  height: auto;
 }
-#aboutme{
-display:none;
-animation-name: aboutme;
-animation-duration: 1s;
-}
-@keyframes menu{
-0% {opacity:0}
-100% {opacity:1}
-}
-@keyframes front{
-0% {opacity:0}
-100% {opacity:1}
-}
-@keyframes cases{
-0% {opacity:0}
-100% {opacity:1}
-}
-@keyframes aboutme{
-0% {opacity:0}
-100% {opacity:1}
-}
-.flex-container1{
-width:900px;
-margin-top: 15px;
-margin-left: auto;
-margin-right: auto;
-display: flex;
-flex-direction: row;
-background-color: rgba(255, 255, 255, 0.5);
-}
-.flex-container2{
-width:900px;
-margin-top: 15px;
-margin-left: auto;
-margin-right: auto;
-display: flex;
-flex-direction: row-reverse;
-background-color: rgba(255, 255, 255, 0.5);
-}
-
-img{
-max-width: 300px;
-}
-.flex-text{
-width: 300px;
-margin-left: auto;
-margin-right: auto;
-}
+.flex-container2 {
+  width:900px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgba(255, 255, 255, 0.5);
+  }
+.flex-image > img {
+  max-width: 300px;
+  height: 305px;
+  }
+.flex-text {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  }
 ::-webkit-scrollbar {
-display: none;
-}
+  display: none;
+  }
 
 @media only screen and (max-width: 800px) {
-.flex-container1, .flex-container2{
-display:flex;
-flex-direction: column;
-margin-left: auto;
-margin-right: auto;
-}
-.flex-image{
-margin-left: auto;
-margin-right: auto;
-}
-.flex-text1, .flex-text2{
-margin-left: auto;
-margin-right: auto;
-}
+  .flex-container1, .flex-container2 {
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  .flex-image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flex-text1, .flex-text2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
